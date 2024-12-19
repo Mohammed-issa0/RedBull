@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #ff0000;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+/* Slider Customization */
+.slick-prev:before,
+.slick-next:before {
+  color: var(--primary-color);
+  display: none
+}
+
+.slick-dots li button:before {
+  color: var(--primary-color);
+  transition: .3s
+}
+.slick-dots li.slick-active button:before {
+  color: var(--primary-color);
+  font-size: 10px;
+}
