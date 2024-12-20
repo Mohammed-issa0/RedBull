@@ -23,15 +23,15 @@ body {
 /* Slider Customization */
 .slick-prev:before,
 .slick-next:before {
-  color: var(--primary-color);
+  color: #facc15;
   display: none
 }
 
 .slick-dots li button:before {
-  color: var(--primary-color);
+  color: #facc15;
   transition: .3s
 }
 .slick-dots li.slick-active button:before {
-  color: var(--primary-color);
+  color:#facc15;
   font-size: 10px;
 }

@@ -13,14 +13,14 @@ function Pricing() {
         >
           
           
-          <div className="bg-white rounded-lg shadow-lg p-8">
-            <h2 className="text-3xl font-bold mb-8">السعر</h2>
-            <div className="text-4xl font-bold text-primary mb-4">
-              $6 <span className="text-sm text-gray-500">$10</span>
+          <div className="bg-yellow-400 rounded-lg shadow-lg p-8">
+            <h2 className="text-3xl font-bold mb-6 text-white">السعر</h2>
+            <div className="text-4xl font-bold text-primary mb-4 bg-white p-5 w-[150px] flex justify-center items-end mx-auto rounded-sm">
+              $6 <span className="text-[20px] text-yellow-400 pr-2 line-through">$10</span>
             </div>
-            <div className="text-red-500  mb-6">وفر 40% لفترة محدودة!</div>
+            <div className="text-red-600 font-semibold  mb-6">وفر 40% لفترة محدودة!</div>
             
-            <ul className="text-right mb-8">
+            <ul className="text-right text-red-600 font-semibold mb-8">
               <li className="flex items-center mb-2">
                 <FaShippingFast className="text-primary" />
                 <span className="mr-2">شحن مجاني</span>

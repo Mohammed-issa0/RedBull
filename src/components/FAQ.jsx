@@ -7,7 +7,7 @@ function FAQItem({ question, answer }) {
 
   return (
     <motion.div 
-      className="border-b border-gray-200 py-4"
+      className="border-b border-yellow-200 py-4"
       {...fadeInView}
     >
       <button
@@ -20,7 +20,7 @@ function FAQItem({ question, answer }) {
       
       {isOpen && (
         <motion.div 
-          className="mt-2 text-gray-600"
+          className="mt-2 text-yellow-500 font-semibold"
           initial={{ height: 0, opacity: 0 }}
           animate={{ height: 'auto', opacity: 1 }}
           transition={{ duration: 0.3 }}
@@ -56,13 +56,13 @@ export default function FAQ() {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-2xl">
         <motion.h2 
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl font-bold text-center mb-12 text-primary"
           {...fadeInView}
         >
           أسئلة شائعة
         </motion.h2>
 
-        <div className="space-y-4">
+        <div className="space-y-4 text-primary">
           {faqs.map((faq, index) => (
             <FAQItem key={index} {...faq} />
           ))}

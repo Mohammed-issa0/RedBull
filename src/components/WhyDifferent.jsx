@@ -23,10 +23,10 @@ export default function WhyDifferent() {
   ]
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-yellow-400">
       <div className="container mx-auto px-4">
         <motion.h2 
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl text-white font-bold text-center mb-12"
           {...fadeInView}
         >
           ما الذي يجعل <span className="text-primary">RedBull</span> مختلفًا؟
@@ -39,14 +39,14 @@ export default function WhyDifferent() {
           {reasons.map((reason, index) => (
             <motion.div
               key={index}
-              className="text-center p-6"
+              className="text-center p-6 bg-primary rounded-md"
               {...fadeInView}
             >
-              <div className="text-primary text-4xl mb-4 flex justify-center">
+              <div className="text-yellow-400 text-4xl mb-4 flex justify-center">
                 {reason.icon}
               </div>
-              <h3 className="text-xl font-bold mb-3">{reason.title}</h3>
-              <p className="text-gray-600">{reason.description}</p>
+              <h3 className="text-xl text-yellow-400 font-bold mb-3">{reason.title}</h3>
+              <p className="text-white">{reason.description}</p>
             </motion.div>
           ))}
         </motion.div>

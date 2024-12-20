@@ -15,35 +15,35 @@ export const products = [
   {
     id: 2,
     name: "SportFlex Air",
-    image: p2,
+    image: p1,
     color: "أبيض / أزرق",
     price: "200 درهم"
   },
   {
     id: 3,
     name: "SportFlex Lite",
-    image: p3,
+    image: p1,
     color: "رمادي / أحمر",
     price: "200 درهم"
   },
   {
     id: 4,
     name: "SportFlex Elite",
-    image: p4,
+    image: p1,
     color: "أسود / ذهبي",
     price: "200 درهم"
   },
   {
     id: 5,
     name: "SportFlex Elite",
-    image: p5,
+    image: p1,
     color: "أسود / ذهبي",
     price: "200 درهم"
   },
   {
     id: 6,
     name: "SportFlex Elite",
-    image: p6,
+    image: p1,
     color: "أسود / ذهبي",
     price: "200 درهم"
   }

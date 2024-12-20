@@ -63,10 +63,10 @@ export default function Testimonials() {
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (
               <div key={index} className="px-4 text-right">
-                <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
-                  <FaQuoteRight className="text-primary w-full text-right text-4xl mb-4" />
-                  <p className="text-gray-600 mb-4">{testimonial.text}</p>
-                  <div className="font-bold text-primary">
+                <div className="bg-primary p-6 rounded-lg shadow-lg">
+                  <FaQuoteRight className="text-yellow-400 w-full text-right text-4xl mb-4" />
+                  <p className="text-white mb-4 font-semibold" dir='rtl'>{testimonial.text}</p>
+                  <div className="font-bold text-yellow-400" dir='rtl'>
                     {testimonial.name}، {testimonial.age}
                   </div>
                 </div>

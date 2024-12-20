@@ -23,10 +23,10 @@ export default function Benefits() {
   ]
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <motion.h2 
-          className="text-3xl font-bold text-center mb-12"
+          className="text-3xl font-bold text-center mb-12 text-yellow-400"
           {...scaleInView}
         >
           ماذا سيضيف <span className="text-primary">RedBull</span> إلى حياتك؟
@@ -39,15 +39,15 @@ export default function Benefits() {
           {benefits.map((benefit, index) => (
             <motion.div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg text-center"
+              className="bg-yellow-400 p-6 rounded-lg shadow-lg text-center"
               {...scaleInView}
               whileHover={{ scale: 1.05 }}
             >
               <div className="text-primary text-4xl mb-4 flex justify-center">
                 {benefit.icon}
               </div>
-              <h3 className="text-xl font-bold mb-3">{benefit.title}</h3>
-              <p className="text-gray-600">{benefit.description}</p>
+              <h3 className="text-2xl text-primary font-bold mb-3">{benefit.title}</h3>
+              <p className="text-white">{benefit.description}</p>
             </motion.div>
           ))}
         </motion.div>

@@ -17,7 +17,7 @@ function App() {
       <WhyDifferent />
       <Benefits />
       <Testimonials />
-      <Specifications />
+      {/* <Specifications /> */}
       <Pricing />
       <FAQ />
       <CTA />
